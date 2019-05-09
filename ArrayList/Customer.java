@@ -17,11 +17,9 @@ public class Customer {
         this.transactions.add(amount);
     }
 
-
     public String getName() {
         return name;
     }
-
 
     public ArrayList<Double> getTransactions() {
         return transactions;
