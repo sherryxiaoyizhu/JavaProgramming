@@ -33,7 +33,6 @@ public class Main {
         // e.g. check if exists, or does not exist, etc.
         // Think about where you are adding the code to perform certain actions
 
-
         Bank bank = new Bank("US Bank");
         bank.newBranch("MN");
         bank.addCustomer("MN", "Sherry", 204.69);
@@ -56,6 +55,7 @@ public class Main {
             System.out.println("Branch does not exist!");
         }
 
+        
 //        private static Scanner scanner = new Scanner(System.in);
 //
 //        private static void addNewCustomer() {
