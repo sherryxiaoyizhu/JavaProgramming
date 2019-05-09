@@ -57,7 +57,6 @@ public class Bank {
                 Customer customer = branchCustomers.get(i);
                 System.out.println("[" + (i+1) + "]" + " Customer: " + customer.getName());
 
-
                 if(showTransactions) {
                     System.out.println("Transactions:");
                     ArrayList<Double> transactions = customer.getTransactions();
